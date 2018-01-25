@@ -12,6 +12,8 @@
 @property (weak, nonatomic) IBOutlet UILabel *monthly;
 @property (weak, nonatomic) IBOutlet UILabel *loanKr;
 @property (weak, nonatomic) IBOutlet UILabel *depositKr;
+@property (weak, nonatomic) IBOutlet UISlider *loanSlider;
+@property (weak, nonatomic) IBOutlet UISlider *depositSlider;
 
 
 @end
@@ -25,6 +27,8 @@
 
 
 - (IBAction)loan:(id)sender {
+    self.depositSlider.minimumValue = self.loanSlider.value*0.15f;
+    self.depositSlider.maximumValue = self.loanSlider.value*0.9f;
 }
 
 
@@ -32,6 +36,8 @@
 }
 
 - (IBAction)ok:(id)sender {
+    self.loanKr.text= [NSString stringWithFormat:@"%.0f",self.loanSlider.value];
+    self.depositKr.text= [NSString stringWithFormat:@"%.0f",self.depositSlider.value];
 }
 
 - (void)didReceiveMemoryWarning {
