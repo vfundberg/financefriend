@@ -38,6 +38,9 @@
 - (IBAction)ok:(id)sender {
     self.loanKr.text= [NSString stringWithFormat:@"%.0f",self.loanSlider.value];
     self.depositKr.text= [NSString stringWithFormat:@"%.0f",self.depositSlider.value];
+    float montlyValue = (self.loanKr.text.floatValue - self.depositKr.text.floatValue)/360*0.0205;
+    
+    self.monthly.text= [NSString stringWithFormat:@"%.0f",montlyValue];
 }
 
 - (void)didReceiveMemoryWarning {
