@@ -9,6 +9,10 @@
 #import "FinanceViewController.h"
 
 @interface FinanceViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *monthly;
+@property (weak, nonatomic) IBOutlet UILabel *loanKr;
+@property (weak, nonatomic) IBOutlet UILabel *depositKr;
+
 
 @end
 
@@ -17,6 +21,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+}
+
+
+- (IBAction)loan:(id)sender {
+}
+
+
+- (IBAction)deposit:(id)sender {
+}
+
+- (IBAction)ok:(id)sender {
 }
 
 - (void)didReceiveMemoryWarning {
