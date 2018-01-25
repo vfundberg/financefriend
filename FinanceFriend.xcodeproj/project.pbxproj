@@ -13,6 +13,7 @@
 		5EA13F472019CA8E007C25D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13F462019CA8E007C25D4 /* Assets.xcassets */; };
 		5EA13F4A2019CA8E007C25D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA13F482019CA8E007C25D4 /* LaunchScreen.storyboard */; };
 		5EA13F4D2019CA8E007C25D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EA13F4C2019CA8E007C25D4 /* main.m */; };
+		B51EB6252019D0B500DE905C /* FinanceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B51EB6242019D0B500DE905C /* FinanceViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		5EA13F492019CA8E007C25D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EA13F4B2019CA8E007C25D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EA13F4C2019CA8E007C25D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B51EB6232019D0B500DE905C /* FinanceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinanceViewController.h; sourceTree = "<group>"; };
+		B51EB6242019D0B500DE905C /* FinanceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinanceViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				5EA13F402019CA8E007C25D4 /* ViewController.h */,
 				5EA13F412019CA8E007C25D4 /* ViewController.m */,
 				5EA13F432019CA8E007C25D4 /* Main.storyboard */,
+				B51EB6232019D0B500DE905C /* FinanceViewController.h */,
+				B51EB6242019D0B500DE905C /* FinanceViewController.m */,
 				5EA13F462019CA8E007C25D4 /* Assets.xcassets */,
 				5EA13F482019CA8E007C25D4 /* LaunchScreen.storyboard */,
 				5EA13F4B2019CA8E007C25D4 /* Info.plist */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EA13F422019CA8E007C25D4 /* ViewController.m in Sources */,
+				B51EB6252019D0B500DE905C /* FinanceViewController.m in Sources */,
 				5EA13F4D2019CA8E007C25D4 /* main.m in Sources */,
 				5EA13F3F2019CA8E007C25D4 /* AppDelegate.m in Sources */,
 			);
